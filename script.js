@@ -1,7 +1,7 @@
 
-  alert("Welcome to my page")
+  alert("Bienvenidos a mi pagina web")
 var firstName = "Evangelina";
-var age = 25;
+var age = 15;
 var isAdult = true;
 
 // Mathematical operation
@@ -28,4 +28,14 @@ if (bmi < 18.5 || bmi > 25) {
 } else {
     console.log(firstName + "'s BMI is within the healthy range.");
     document.write("<br>" + firstName + "'s BMI is within the healthy range.");
+}
+
+function addEmoji() {
+  const emojis = ["😊", "😍", "🎉", "🚀"]; // Puedes agregar más emojis aquí
+  const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+
+  const emojiElement = document.createElement("span");
+  emojiElement.textContent = randomEmoji;
+
+  document.getElementById("emojiContainer").appendChild(emojiElement);
 }
