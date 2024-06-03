@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: #74bbd2;
+  background-color: #d4e3fe;
 }
 
 
@@ -144,4 +144,14 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+.diff {
+  margin: 10px 0 50px 50px; 
+}
+
+
+
+
+  
+}
+
 }

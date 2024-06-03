@@ -31,7 +31,7 @@ if (bmi < 18.5 || bmi > 25) {
 }
 
 function addEmoji() {
-  const emojis = ["😊", "😍", "🎉", "🚀"]; // Puedes agregar más emojis aquí
+  const emojis = ["😊","💜" ,"✨", "🧸", "💗","💕","🌸" ,"🎀", "🌺","🌷","🌻" , "🌼","💮","🪻","🦋","♡","🪷","✰","🌻","₊✧", "💛", "(>‿◠)","JM","🏵️"]; // Puedes agregar más emojis aquí
   const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
 
   const emojiElement = document.createElement("span");
